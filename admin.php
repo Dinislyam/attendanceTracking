@@ -47,6 +47,7 @@ $currentDate = date('Y-m-d');
 </head>
 
 <body>
+    <a href="otchet.php">Создать отчет</a>
     <div class="container mt-5">
         <h1 class="mb-4">
             Отчеты групп за <input type="date" id="reportDate" value="<?php echo $currentDate; ?>" class="form-control d-inline w-auto">
